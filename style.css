@@ -2,6 +2,9 @@ body{
     background-color: #FAF4F4;
 }
 
+strong {
+    font-weight: bold;}
+
 .header{
         display: flex;
         padding: 32px 6%;
@@ -24,6 +27,14 @@ body{
     background-position: center; /* Centers the image horizontally and vertically */
     background-repeat: no-repeat; 
     padding-bottom: 48px;/* Prevents the image from repeating */
+    /* You can add more background properties and styles as needed */
+  }
+
+  .background-image-class2 {
+    background-image: url('./assets/projects/Gradient2.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     /* You can add more background properties and styles as needed */
   }
 
@@ -80,10 +91,9 @@ body{
     font-weight: 300;
     line-height: 175%; 
     letter-spacing: -0.1px;
-}strong {
-    font-weight: bold;}
+}
 
-#button{
+#camplus{
     color: #FAF4F4;
     font-family: Poppins;
     font-size: 14px;
@@ -92,3 +102,57 @@ body{
     line-height: 175%; /* 24.5px */
     letter-spacing: -0.07px;
 }
+
+#description{
+    color: #13131A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+#description2{
+    color: #13131A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+#description3{
+    color: #13131A;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+.highlight {
+    left: 7%;
+    bottom: 16px;
+    width: 150px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(234,113,36,0.5);
+    z-index: -1;
+  }
+
+  .highlight2 {
+    left: 7%;
+    bottom: 16px;
+    width: 150px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(103,199,231,0.5);
+    z-index: -1;
+  }
+
+   /* Remove margin and padding for the icons and anchor tags */
+   .custom-icon-link i,
+   .custom-icon-link {
+     margin: 0;
+     padding: 0;
+   }
